@@ -1,10 +1,10 @@
 ﻿Component,Manufacturer,Manufacturer No.,In Altium?
-Microcontroller,STMicroelectronics,STM32G431KBT6,No
-UART to Ethernet,WCH-IC,CH9120,No
+Microcontroller,STMicroelectronics,STM32G431KBT6,Yes
+UART to Ethernet,WCH-IC,CH9120,Yes
 RJ45 Connector,Würth Elektronik,7499010121A,Yes
-USB-A Plug,Würth Elektronik,6.29004E+11,No
-LDO 3.3V,Texas Instruments,TLV74033PDBVR,No
-32MHz Crystal,Murata Electronics,XRCGB32M000F0L00R0,No
-12pF 0402,Murata Electronics,GRT1555C1E120JA02D,No
-100nF 0402,Murata Electronics,GRT155R71E104KE01D,No
-1uF 0402,Murata Electronics,GRT155R61E105KE01D,No
+USB-A Plug,Würth Elektronik,629004113921,Yes
+LDO 3.3V,Texas Instruments,TLV74033PDBVR,Yes
+32MHz Crystal,Murata Electronics,XRCGB32M000F0L00R0,Yes
+12pF 0402,Murata Electronics,GRT1555C1E120JA02D,Yes
+100nF 0402,Murata Electronics,GRT155R71E104KE01D,Yes
+1uF 0402,Murata Electronics,GRT155R61E105KE01D,Yes
