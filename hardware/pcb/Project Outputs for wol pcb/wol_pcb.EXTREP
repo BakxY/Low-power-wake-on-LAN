@@ -1,20 +1,18 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: wol_pcb.GBR   08/04/2023  23:26:47
+Gerber File Extension Report For: wol_pcb.GBR   08/04/2023  23:51:41
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.gbr                Top Layer                               
-.gbr                Bottom Layer                            
-.gbr                Top Overlay                             
-.gbr                Bottom Overlay                          
-.gbr                Top Solder                              
-.gbr                Bottom Solder                           
-.gbr                Top Paste                               
-.gbr                Bottom Paste                            
-.gbr                Profile                                 
-.gbr                Non-plated through-hole drill file      
-.gbr                Plated through-hole drill file          
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM                 Profile                                 
 ------------------------------------------------------------------------------------------
