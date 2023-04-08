@@ -1,0 +1,23 @@
+{
+  "name": "wake-on-lan-api",
+  "version": "1.0.0",
+  "description": "API for queuing wol commands on external installations",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docker build . -t wol-api && docker run -p 3002:3002 -e rateLimitPerMin=60 -e resetTokenLength=32 -i wol-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.sespra.ch/helpme/wake-on-lan-api.git"
+  },
+  "keywords": [
+    "wol",
+    "docker"
+  ],
+  "author": "Severin Sprenger",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0"
+  }
+}
