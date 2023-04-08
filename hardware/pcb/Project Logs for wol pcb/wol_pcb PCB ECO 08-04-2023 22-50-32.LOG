@@ -1,0 +1,31 @@
+Added Component: Designator=IC200(QFN28)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.wch-ic.com/downloads/file/317.html?time=2022-08-22%2013:41:33&code=5fVJkrWqOqsN9oFySIYUkoTgQwx098RKZyXylZKH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=IC200-0
+Added Pin To Net: NetName=GND Pin=IC200-0
+Added Pin To Net: NetName=GND Pin=IC200-0
+Added Pin To Net: NetName=GND Pin=IC200-0
+Added Pin To Net: NetName=GND Pin=IC200-0
+Added Pin To Net: NetName=GND Pin=IC200-0
+Added Pin To Net: NetName=VCC Pin=IC200-3
+Added Pin To Net: NetName=VCC Pin=IC200-4
+Added Pin To Net: NetName=3V3 Pin=IC200-5
+Added Pin To Net: NetName=STM_TX Pin=IC200-6
+Added Pin To Net: NetName=STM_RX Pin=IC200-7
+Added Pin To Net: NetName=RXP Pin=IC200-8
+Added Pin To Net: NetName=RXN Pin=IC200-9
+Added Pin To Net: NetName=TXP Pin=IC200-10
+Added Pin To Net: NetName=TXN Pin=IC200-11
+Added Pin To Net: NetName=ACT Pin=IC200-14
+Added Pin To Net: NetName=LINK Pin=IC200-15
+Added Pin To Net: NetName=ETH_nRST Pin=IC200-16
+Added Pin To Net: NetName=ETH_RUN Pin=IC200-17
+Added Pin To Net: NetName=XO Pin=IC200-18
+Added Pin To Net: NetName=XI Pin=IC200-19
+Added Pin To Net: NetName=VREF Pin=IC200-20
+Added Pin To Net: NetName=VCC Pin=IC200-22
+Added Pin To Net: NetName=ETH_CFGEN Pin=IC200-23
+Added Pin To Net: NetName=ETH_CFG Pin=IC200-26
+Added Pin To Net: NetName=ETH_nFAC Pin=IC200-27
+Added Pin To Net: NetName=ETH_nTCPCS Pin=IC200-28
+Added Member To Class: ClassName=Ethernet Member=Component IC200 CH9120

@@ -1,0 +1,7 @@
+Added Component: Designator=DBG(SWD Interface Host)
+Added Pin To Net: NetName=3V3 Pin=DBG-1
+Added Pin To Net: NetName=SWDCLK Pin=DBG-2
+Added Pin To Net: NetName=GND Pin=DBG-3
+Added Pin To Net: NetName=SWDIO Pin=DBG-4
+Added Pin To Net: NetName=NRST Pin=DBG-5
+Added Member To Class: ClassName=Controller Member=Component DBG SWD Interface

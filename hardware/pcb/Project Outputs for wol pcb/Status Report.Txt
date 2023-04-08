@@ -1,0 +1,20 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [wol pcb.PrjPcb]
+   Generated File[wol_pcb.GTO]
+   Generated File[wol_pcb.GTP]
+   Generated File[wol_pcb.GTS]
+   Generated File[wol_pcb.GTL]
+   Generated File[wol_pcb.GBL]
+   Generated File[wol_pcb.GBS]
+   Generated File[wol_pcb.GBP]
+   Generated File[wol_pcb.GBO]
+   Generated File[wol_pcb.GM]
+   Generated File[wol_pcb.EXTREP]
+   Generated File[wol_pcb.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 23:51:41 On 08/04/2023
