@@ -1,0 +1,22 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [wol pcb.PrjPcb]
+   Generated File[wol_pcb_Copper_Signal_Top.gbr]
+   Generated File[wol_pcb_Copper_Signal_Bot.gbr]
+   Generated File[wol_pcb_Legend_Top.gbr]
+   Generated File[wol_pcb_Legend_Bot.gbr]
+   Generated File[wol_pcb_Soldermask_Top.gbr]
+   Generated File[wol_pcb_Soldermask_Bot.gbr]
+   Generated File[wol_pcb_Paste_Top.gbr]
+   Generated File[wol_pcb_Paste_Bot.gbr]
+   Generated File[wol_pcb_Profile.gbr]
+   Generated File[wol_pcb_NPTH_Drill.gbr]
+   Generated File[wol_pcb_PTH_Drill.gbr]
+   Generated File[wol_pcb.EXTREP]
+   Generated File[wol_pcb.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 23:26:49 On 08/04/2023
