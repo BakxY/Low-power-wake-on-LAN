@@ -42,4 +42,6 @@ D50   ROUNDED            55.906      55.906       0.000 FLASH       0.000
 D51   ROUNDED            82.677      82.677       0.000 FLASH       0.000
 D52   ROUNDED           127.953     127.953       0.000 FLASH       0.000
 D53   ROUNDED            23.622      23.622       0.000 FLASH       0.000
-D54   ROUNDED             1.000       1.000       0.000  LINE       0.000
+D54   ROUNDED             5.000       5.000       0.000  LINE       0.000
+D55   ROUNDED             6.665       6.665       0.000  LINE       0.000
+D56   ROUNDED             1.000       1.000       0.000  LINE       0.000
