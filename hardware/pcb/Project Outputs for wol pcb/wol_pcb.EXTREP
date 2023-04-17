@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: wol_pcb.GBR   08/04/2023  23:51:41
+Gerber File Extension Report For: wol_pcb.GBR   17/04/2023  18:43:09
 ------------------------------------------------------------------------------------------
 
 
@@ -12,7 +12,11 @@ Layer Extension     Layer Description
 .GTL                Top Layer                               
 .GBL                Bottom Layer                            
 .GBS                Bottom Solder                           
-.GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
 .GM                 Profile                                 
 ------------------------------------------------------------------------------------------
