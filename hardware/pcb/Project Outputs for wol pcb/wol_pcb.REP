@@ -2,24 +2,19 @@
 FileName = wol_pcb.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Paste
-      File : wol_pcb.GBP
+Generating : Top Overlay
+      File : wol_pcb.GTO
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
+    D10
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : wol_pcb.GTP
-
-    Adding Layer      : Top Paste
+Generating : Top Layer
+      File : wol_pcb.GTL
 
     Adding Layer      : Top Layer
 
@@ -38,6 +33,39 @@ Used DCodes :
     D19
     D20
     D21
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : wol_pcb.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : wol_pcb.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
 *************************************************************
 
 *************************************************************
@@ -100,25 +128,81 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : wol_pcb.GBO
+Generating : Top Paste
+      File : wol_pcb.GTP
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Paste
 
+    Adding Layer      : Top Layer
 
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : wol_pcb.GTO
-
-    Adding Layer      : Top Overlay
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : wol_pcb.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : wol_pcb.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
 *************************************************************
 
 *************************************************************
@@ -145,37 +229,30 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : wol_pcb.GTL
+Generating : Drill Drawing
+      File : wol_pcb.GD1
 
-    Adding Layer      : Top Layer
+    Adding Drill Pair : Top Layer-Bottom Layer
 
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Drill Drawing
 
 
 Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : wol_pcb.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D54
 *************************************************************
 
 *************************************************************
@@ -184,6 +261,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D54
+    D56
 *************************************************************
 
