@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=3V3 Pin=DBG-1
+Removed Pin From Net: NetName=SWDCLK Pin=DBG-2
+Removed Pin From Net: NetName=GND Pin=DBG-3
+Removed Pin From Net: NetName=SWDIO Pin=DBG-4
+Removed Pin From Net: NetName=NRST Pin=DBG-5
+Removed Member From Class: ClassName=Controller Member=DBG
+Added Component: Designator=*(Mini SWD Header)
+Add component (AddParameter): Name = "Manufacturer Nr."; Value = "3220-14-0300-00"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=*-3
+Added Pin To Net: NetName=SWDIO Pin=*-4
+Added Pin To Net: NetName=GND Pin=*-5
+Added Pin To Net: NetName=SWDCLK Pin=*-6
+Added Pin To Net: NetName=GND Pin=*-7
+Add Pin To Net: Unknown Pin: Pin *-12
+Added Member To Class: ClassName=Controller Member=Component * Mini SWD Header
