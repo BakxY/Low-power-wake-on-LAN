@@ -62,13 +62,13 @@
   * @{
   */
 
-#define USBD_VID     1155
+#define USBD_VID     8500
 #define USBD_LANGID_STRING     1033
-#define USBD_MANUFACTURER_STRING     "STMicroelectronics"
-#define USBD_PID     22336
-#define USBD_PRODUCT_STRING     "STM32 Virtual ComPort"
-#define USBD_CONFIGURATION_STRING     "CDC Config"
-#define USBD_INTERFACE_STRING     "CDC Interface"
+#define USBD_MANUFACTURER_STRING     "S&H Systems"
+#define USBD_PID     3001
+#define USBD_PRODUCT_STRING     "LPWOL"
+#define USBD_CONFIGURATION_STRING     "S&H Configurator"
+#define USBD_INTERFACE_STRING     "S&H Config Interface"
 
 /* USER CODE BEGIN PRIVATE_DEFINES */
 

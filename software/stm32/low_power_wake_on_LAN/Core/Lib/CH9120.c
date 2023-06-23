@@ -5,25 +5,42 @@
  *      Author: Severin Sprenger
  */
 
-#include "CH9120.c"
+#include "CH9120.h"
 
-// IP Byte mapping: IPByte[3].IPByte[2].IPByte[1].IPByte[0]
-
-struct _IPAddress
+HAL_StatusTypeDef StringToAddress(char ipStr[17], IPAddress *ipStruct)
 {
-	// IP Bytes
-	uint8_t IPByte[4];
-};
+	uint8_t CutString[4] = { 0, 0, 0, 0 };
+	uint8_t CutStrArrIndex = 0;
 
-struct _ChipSettings
-{
-	// IP
-	IPAddress IP;
+	for(uint8_t i = 0; i < 17; i++)
+	{
+		if(ipStr[i] != '.')
+		{
+			CutString[CutStrArrIndex] = CutString[CutStrArrIndex] * 10 + (ipStr[i] - '0');
+		}
+		else
+		{
+			CutStrArrIndex++;
+		}
 
-	// Gateway
-	IPAddress Gateway;
+		if(CutStrArrIndex > 3)
+		{
+			return HAL_ERROR;
+		}
+	}
 
-	// Subnet
-	IPAddress Subnet;
-};
+	for(uint8_t i = 0; i < 4; i++)
+	{
+		if(CutString[i] < 256)
+		{
+			ipStruct->IPByte[i] = CutString[i];
+		}
+		else
+		{
+			return HAL_ERROR;
+		}
+	}
+
+	return HAL_OK;
+}
 
