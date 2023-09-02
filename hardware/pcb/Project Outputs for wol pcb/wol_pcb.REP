@@ -2,19 +2,8 @@
 FileName = wol_pcb.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Overlay
-      File : wol_pcb.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
 Generating : Top Layer
-      File : wol_pcb.GTL
+      File : wol_pcb_Copper_Signal_Top.gbr
 
     Adding Layer      : Top Layer
 
@@ -22,6 +11,7 @@ Generating : Top Layer
 
 
 Used DCodes :
+    D10
     D11
     D12
     D13
@@ -33,77 +23,6 @@ Used DCodes :
     D19
     D20
     D21
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : wol_pcb.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : wol_pcb.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : wol_pcb.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : wol_pcb.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D22
     D23
     D24
@@ -116,8 +35,65 @@ Used DCodes :
     D31
     D32
     D33
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : wol_pcb_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
     D34
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : wol_pcb_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
     D35
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : wol_pcb_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : wol_pcb_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D36
     D37
     D38
@@ -125,96 +101,6 @@ Used DCodes :
     D40
     D41
     D42
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : wol_pcb.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : wol_pcb.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : wol_pcb.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : wol_pcb.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D43
     D44
     D45
@@ -226,41 +112,109 @@ Used DCodes :
     D51
     D52
     D53
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : wol_pcb.GD1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
     D54
     D55
+    D56
+    D57
 *************************************************************
 
 *************************************************************
-Generating : Drill Guide
-      File : wol_pcb.GG1
+Generating : Bottom Solder
+      File : wol_pcb_Soldermask_Bot.gbr
 
-    Adding Drill Pair : Top Layer-Bottom Layer
+    Adding Layer      : Bottom Solder
 
-    Adding Layer      : Drill Guide
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D49
+    D50
+    D51
+    D52
+    D53
     D54
+    D55
+    D56
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : wol_pcb_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : wol_pcb_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D34
 *************************************************************
 
 *************************************************************
 Generating : Profile
-      File : wol_pcb.GM
+      File : wol_pcb_Profile.gbr
 
 
 Used DCodes :
-    D56
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : wol_pcb_NPTH_Drill.gbr
+
+
+Used DCodes :
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : wol_pcb_PTH_Drill.gbr
+
+
+Used DCodes :
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
 *************************************************************
 
